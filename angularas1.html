@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<title>assignment1</title>
+	 <link rel="stylesheet" href="vendor/bootstrap-3.3.4-dist/css/bootstrap.css">
+	<script src="angular.js" type="text/javascript"></script>
+	<script src="jquery.js" type="text/javascript"></script>
+</head>
+<body>
+<div ng-app>
+<input type="text" ng-model="name" placeholder="Enter name"></br>
+<input type="age" ng-model="age" placeholder="Enter age"></br>
+<button type="submit" > Submit </button>
+<table class="table" id="table1">
+<tr> <td> Name</td> <td> Age </td> </tr>
+<tr> <td ng-bind="name"> {{name}} </td>  <td ng-bind="age"> {{age}}</td> </tr> 
+</table>
+</div>
+
+<script src="jquery.js"></script>
+<script src="vendor/bootstrap-3.3.4-dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="uibootstrap.js"></script>
+</body>
+</html>
+
+
